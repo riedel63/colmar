@@ -1,3 +1,16 @@
+<div class="mobile-grid">
+  <ul>
+    <li><a href="#">Software&nbspengineering</a></li>
+    <li><a href="#">Computer&nbspart</a></li>
+    <li><a href="#">Design</a></li>
+    <li><a href="#">Data</a></li>
+    <li><a href="#">Business</a></li>
+    <li><a href="#">Marketing</a></li>
+  </ul>
+</div>
+
+
+
 @media only screen and (max-width: 470px) {
 #page-wrap #grid {
     background-color: white;

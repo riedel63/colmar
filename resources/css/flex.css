@@ -112,28 +112,61 @@ div .mobile-gray {
 	 width: 100%;
 	 background-color: #99A3A4;
 	 display: block;
+	 border-right: 1px solid;
+	 border-left: 1px solid;
+	 border-color: lightgray;
 }
 }
   /* NAV MOBILE*/
 
 
 @media (max-width: 470px) {
-    .mobile-nav {
-    display: block !important;
+  .mobile-nav {
+  display: block !important;
 }
 
-
-    .desktop-menu {
-        display: none !important;
+  .desktop-menu {
+  display: none !important;
 }
 }
 
 @media (min-width:480px) {
-    .desktop-menu {
-        display: block !important;
+  .desktop-menu {
+  display: block !important;
 }
-		.mobile-nav {
-			display: none !important;
+	.mobile-nav {
+	display: none !important;
+}
+}
+
+@media only screen and (max-width: 470px) {
+  .mobile-nav img {
+	display: inline-block;
+	position: fixed;
+
+}
+}
+
+@media only screen and (max-width: 470px) {
+div .mobile-nav {
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	border-right: 1px solid;
+	border-left: 1px solid;
+	border-color: lightgray;
+	height: 64px;
+	text-align: left;
+
+}
+}
+
+@media only screen and (max-width: 470px) {
+div .mobile-nav ul li {
+	display: inline-block;
+	justify-content: flex-start;
+
+
 }
 }
 
@@ -433,43 +466,51 @@ h4 {
 
 /* GRID MOBILE*/
 @media only screen and (max-width: 470px) {
-#page-wrap {
+#page-wrap #grid {
     background-color: white;
 }
 }
 
+
 @media only screen and (max-width: 470px) {
-#grid {
+.grid-container {
     background-color: white;
 }
 }
 
-@media only screen and (max-width: 470px) {
-.grid-container{
-		display: none;
-		background-color: white;
-}
-}
 
 
 @media only screen and (max-width: 470px) {
-.mobile-grid ul li {
+.mobile-grid p {
 	background-color: lightgray;
-	padding-right: 200px;
-	margin-right: 16px;
-	padding-left: 16px;
+	font-size: 20px;
 	padding-top: 16px;
 	padding-bottom: 16px;
-	font-size: 18px;
-	margin-top: 8px;
-	justify-content: space-around;
+	margin-left: 16px;
+	margin-right: 16px;
 	text-align: left;
-
-
+	margin-bottom: 8px;
 }
 }
 
 
+@media (max-width: 470px) {
+	.mobile-grid {
+  display: block !important;
+}
+  .grid-container {
+  display: none !important;
+}
+}
+
+@media (min-width:480px) {
+  .grid-container {
+   display: block !important;
+}
+	.mobile-grid {
+	display: none !important;
+}
+}
 
 /* GRID SECTION */
 #grid {
@@ -479,11 +520,6 @@ h4 {
 	font-family: helvetica;
 	padding-top: 32px;
 	padding-bottom: 32px;
-}
-
-.mobile-grid {
-	display: none;
-	background-color: white;
 }
 
 .grid-container {
