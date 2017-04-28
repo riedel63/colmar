@@ -1,0 +1,401 @@
+/* Universal */
+
+html {
+	font-family: "helvetica", sans-serif;
+	font-size: 16px;
+	background-color: white;
+}
+h1 {
+	font-family: helvetica;
+	font-size: 35px;
+	color: #4f4a4a;
+}
+h3 {
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: normal;
+	color: #4f4a4a;
+}
+h2 {
+	font-family: helvetica;
+	font-size: 27px;
+	font-weight: normal;
+	color: #4f4a4a;
+}
+body {
+	font-family: helvetica;
+	text-align: center;
+	margin: auto;
+}
+header h1 {
+	color: #4f4a4a;
+	font-size: 18px;
+
+}
+
+header img {
+	margin-left: 24px;
+}
+
+h1 span {
+	color: #B2BABB;
+	font-size: 18px;
+
+}
+
+#page-wrap {
+  display: flex;
+  flex-flow: row wrap;
+	width: 90%;
+	margin: auto;
+	background-color: #F4F6F6;
+	border-right: 1px solid;
+	border-left: 1px solid;
+	border-color: lightgray;
+}
+.container {
+	width: 100%;
+	margin: auto;
+}
+
+/* HEADER*/
+
+header {
+	position: fixed;
+	width: 100%;
+	color: black;
+	height: 64px;
+	top: 0;
+	z-index: 3;
+}
+.content {
+	display: flex;
+	padding: 1.875rem;
+	font-family: helvetica;
+}
+.mobile-nav {
+	display: none;
+}
+nav {
+	background-color: white;
+	color: #F404040;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+}
+nav div {
+	display: flex;
+	align-items: center;
+}
+ul {
+	margin-right: 9rem;
+}
+ul li {
+	display: inline;
+	list-style-type: none;
+	font-family: helvetica;
+	font-size: .9rem;
+}
+a {
+	padding: 16px;
+	color: #404040;
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+p {
+	font-size: 14px;
+}
+h4 {
+	font-weight: normal;
+	font-size: 14px;
+}
+
+/* BANNER SECTION */
+
+#wrapper {
+	width: 100%;
+	background-color: #D6DBDF;
+	display: flex;
+	align-content: center;
+	margin-top: 50px;
+	z-index: 0;
+	position: relative;
+}
+.banner-image {
+	width: 60%;
+	padding: 32px 40px 32px 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.learn {
+	width: 40%;
+	margin-right: 24px;
+	margin-left: 40px;
+	margin-top: 0px;
+	display: flex;
+	align-items: center;
+	color: #4f4a4a;
+	text-align: left;
+}
+.start-button {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: #4f4a4a;
+	color: white;
+	display: block;
+	position: absolute;
+	bottom: 150px;
+	width: 290px;
+	font-family: helvetica;
+	text-align: center;
+}
+
+/* Orientation - learn area */
+
+#wrapper2 {
+	width: 100%;
+	background-color: #EBEDEF;
+	display: flex;
+	position: relative;
+	margin: auto;
+	padding-top: 32px;
+}
+#wrapper2 h2 {
+	font-weight: bold;
+}
+
+/*Left Column */
+
+.left-image-container {
+	width: 60%;
+	flex-direction: column;
+	margin-left: 24px;
+	text-align: left;
+	margin-right: 24px;
+	color: #4f4a4a;
+}
+
+/*Right Column*/
+
+#wrapper-right {
+	width: 40%;
+	margin-left: 16px;
+	flex-direction: column;
+	font-family: helvetica;
+	align-content: left;
+	display: flex;
+	border-left: 1px #D6DBDF solid;
+
+}
+#wrapper-right img {
+	width: 148px;
+	height: 148px;
+}
+#wrapper-right p {
+	color: #5DADE2;
+	font-weight: bold;
+	font-size: 13px;
+}
+.orientation {
+	display: flex;
+	text-align: left;
+	padding-left: 16px;
+	color: #4f4a4a;
+}
+.campus {
+	display: flex;
+	text-align: left;
+	padding-left: 16px;
+	padding-bottom: 8px;
+	color: #4f4a4a;
+}
+.guest {
+	display: flex;
+	padding-top: 16px;
+	text-align: left;
+	padding-left: 16px;
+	color: #4f4a4a;
+  padding-right: 24px;
+}
+#wrapper-guest .right-image-container {
+	background-color: #D6DBDF;
+}
+.right-image-container {
+	display: flex;
+	padding-top: 16px;
+	padding-bottom: 8px;
+	color: #4f4a4a;
+}
+
+/* GRID SECTION */
+
+#grid {
+	width: 100%;
+	background-color: #E5E7E9;
+	margin: auto;
+	font-family: helvetica;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+.grid-container {
+	margin: auto;
+	margin-bottom: 32px;
+}
+.grid-container h3 {
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+}
+.grid-container h4 {
+	font-weight: normal;
+	font-size: 14px;
+	text-align: left;
+}
+.grid-container p {
+	font-weight: normal;
+	font-size: 14px;
+	text-align: left;
+}
+.row1 {
+	display: flex;
+	justify-content: center;
+	color: #4f4a4a;
+	height: 300px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+.row1-image {
+	max-width: 25%;
+	margin-right: 32px;
+}
+.row1-text {
+	background-color: white;
+	height: 155px;
+	padding-top: 16px;
+	padding-left: 16px;
+}
+.row2 {
+	display: flex;
+	justify-content: center;
+	color: #4f4a4a;
+	height: 300px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+.row2-image {
+	max-width: 25%;
+	margin-right: 32px;
+	margin-top: 16px;
+}
+.row2-text {
+	background-color: white;
+	padding-top: 12px;
+	padding-left: 16px;
+	padding-bottom: 24px;
+}
+
+/* THESIS SECTION*/
+.thesis-heading {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+
+#thesis-wrapper {
+	background-color: #F4F6F6;
+	border-right: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+	padding-top: 32px;
+	margin-right: 16px;
+	margin-bottom: 32px;
+  margin: auto;
+  display: flex;
+}
+
+
+
+.left-thesis-container {
+	margin-right: 16px;
+	color: #4f4a4a;
+  text-align: left;
+  margin-left: 24px;
+  min-width: 60%;
+
+}
+
+.left-text {
+	text-align: left;
+	color: #4f4a4a;
+
+
+}
+
+/* THESIS SECTION - RIGHT*/
+
+.thesis-wrapper-right {
+	font-family: helvetica;
+  max-width: 40%;
+  }
+
+.thesis-wrapper-right img {
+	width: 148px;
+	height: 148px;
+}
+.right-thesis-image-container {
+ display: flex;
+}
+
+.fisma-wrapper {
+	background-color: #E5E7E9;
+	width: 423px;
+	padding-top: 16px;
+  display: flex;
+}
+
+.fisma {
+	text-align: left;
+	padding-left: 16px;
+	color: #4f4a4a;
+}
+
+.now-wrapper {
+	width: 423px;
+	margin-top: 16px;
+  display: flex;
+}
+
+.now {
+	text-align: left;
+	margin-left: 16px;
+	color: #4f4a4a;
+}
+
+/* FOOTER */
+
+footer {
+	display: inline-block;
+  text-align: left;
+	margin-top: 32px;
+	width: 100%;
+	height: 64px;
+	background-color: white;
+	margin-left: 24px;
+	font-family: helvetica;
+	font-size: 12px;
+	color: gray;
+  align-content: center;
+
+}
+
+footer nav {
+	margin-right: 24px;
+	color: gray;
+  justify-content: flex-end;
+  align-self: flex-start;
+
+}

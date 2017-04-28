@@ -1,0 +1,70 @@
+@media only screen and (max-width: 470px) {
+#page-wrap #grid {
+    background-color: white;
+
+}
+}
+
+@media only screen and (max-width: 470px) {
+#grid img {
+		display: none;
+}
+}
+
+@media only screen and (max-width: 470px) {
+  .grid-container p {
+    display: none;
+		margin: 0 auto;
+
+}
+}
+
+@media only screen and (max-width: 470px) {
+  .grid-container h4 {
+    display: none;
+		margin: 0 auto;
+}
+}
+
+@media only screen and (max-width: 470px) {
+.grid-container .row1 {
+	display: block;
+  margin: 0 auto;
+}
+}
+
+@media only screen and (max-width: 470px) {
+.grid-container .row2 {
+	display: block;
+	margin: 0 auto;
+}
+}
+
+@media only screen and (max-width: 470px) {
+.row1-text h3 {
+	background-color: lightgray;
+	padding-right: 200px;
+	margin-right: 16px;
+	width: 100%;
+	padding-left: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-size: 18px;
+	margin: 0 auto;
+
+}
+}
+
+@media only screen and (max-width: 470px) {
+.row2-text h3 {
+	background-color: lightgray;
+	padding-right: 200px;
+	margin-right: 16px;
+	width: 100%;
+	padding-left: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-size: 18px;
+	margin: 0 auto;
+}
+}
